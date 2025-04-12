@@ -1,0 +1,36 @@
+{
+
+  "workspace": {
+    "members": [
+      "./ws1",
+      "./ws2"
+    ]
+  },
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitReturns": true
+  },
+  "lint": {
+    "rules": {
+      "tags": [
+        "recommended"
+      ]
+    }
+  },
+  "fmt": {
+    "exclude": [
+      "src/testdata/",
+    ],
+    "indentWidth": 4,
+    "lineWidth": 100,
+    "proseWrap": "preserve",
+    "singleQuote": true,
+    "useTabs": false
+  },
+  "test": {
+    "exclude": [
+      "src/testdata/"
+    ]
+  },
+  "nodeModulesDir": "none"
+}
