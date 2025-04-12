@@ -1,5 +1,5 @@
 {
-
+  "lock": false,
   "workspace": {
     "members": [
       "./ws1",
@@ -19,7 +19,7 @@
   },
   "fmt": {
     "exclude": [
-      "src/testdata/",
+      "src/testdata/"
     ],
     "indentWidth": 4,
     "lineWidth": 100,
